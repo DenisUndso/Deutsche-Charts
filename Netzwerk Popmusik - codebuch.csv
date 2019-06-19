@@ -1,0 +1,13 @@
+type edgelist ,1 = interpret,2 = texter,3 = komponist ,,,,
+,,,,,,,
+type nodelist,1 = song ,2 = mensch ,,,,,
+sex nodelist,1 = weiblich ,2 = männlich,3 = divers ,4 = keins ,,,
+genre ,1 = rap,2 = schlager ,3 = pop,4 = elektro ,5 = rock ,6 = keins,
+date ,1 = 2013,2 = 2014,3 = 2015,4 = 2016,5 = 2017,6 = 2018,7 = keins
+dauer,1 = eine Woche ,2 = zwei Wochen ,3 = drei Wochen,usw. ,,,999 = keins
+name ,Vorname Nachname ,,,,,,
+id,initalien ,,,,,,
+kuenstlername ,Künstlername ,,,,,,
+,,,,,,,
+,,,,,,,
+"Umlaute (ae, ue, oe)",,,,,,,
