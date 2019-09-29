@@ -1,127 +1,576 @@
-id,name,kuenstlername,type ,sex ,genre ,date,dauer
-ab,Andreas Bourani ,Andreas Bourani,2,2,6,3,999
-adrh,Adrian David Rolf Held,Klangkarussel,2,2,6,7,999
-ae,Axel Mikael Ehnstroem,Axel Mikael Ehnstroem,2,2,6,7,999
-aet,Adel El Tawil,Adel Tawil,2,2,6,7,999
-ak,Samuel Shari Aaliah Adomako,Ado Kojo,2,2,6,3,999
-ak2,Andreas Kuemmert,Andreas Kuemmert,2,2,6,7,999
-akk,Amy Kathryn Kuney ,Amy Kathryn Kuney,2,1,6,3,999
-am,Andrew Murray,Andrew Murray,2,2,6,7,999
-am2,Ammar Malik,Ammar Malik,2,2,6,7,999
-as,Arne Schult,Arne Schult,2,2,6,7,999
-bb,Benjamin Bistram,Bizram,2,2,6,7,99
-bki,Bram Katz Inscore ,Bram Katz Inscore,2,2,6,3,999
-cas,Charley Ann Schmutzler ,Charley Ann Schmutzler,2,1,6,3,999
-cc,Christoph Cronauer,Chris Cronauer,2,2,6,7,999
-cf,Christian Fohrer,Frei.Wild,2,2,6,3,999
-cg,Christopher John Gelbuda,Christopher John Gelbuda,2,2,6,7,999
-cn,Carolin Niemczyk,Glasperlenspiel,2,1,6,7,999
-cr,Christian Raab,Christian Raab,2,2,6,7,999
-cr2,Clemens Rehbein,Milky Chance,2,2,6,7,999
-cw,Carlo Waibel,Cro,2,2,6,7,999
-da,DJ A Boom,DJ A Boom,2,2,6,7,999
-db,Dennis Bierbrodt,Junkx,2,2,6,7,999
-dc,David Conen,The Krauts,2,2,6,7,999
-dg,Daniel Grunenberg,Glasperlenspiel,2,2,6,7,999
-dg2,David Guetta,David Guetta,2,2,6,7,999
-dhb,Dirk Heinz Berger,The Krauts,2,2,6,7,999
-di,DJ Illvibe,The Krauts,2,2,6,7,999
-dk,David Kraft,The Cratez,2,2,6,7,999
-dl,Dominic Lorberg,Dominic Lorberg,2,2,6,7,999
-dn,Daniel Nitt,Daniel Nitt,2,2,6,7,999
-dn2,Demba Nabe,Seeed,2,2,6,7,999
-ej,Erik Jaster,Erik Jaster,2,2,6,7,999
-fad,Frank Alessa Delle,Seeed,2,2,6,7,999
-fj,Felix Jaehn,Felix Jaehn,2,2,6,7,999
-fz,Frans Zimmer,Alle Farben,2,2,6,7,999
-gc,Guido Craveiro,Guido Craveiro,2,2,6,7,999
-gk,Guido Kramer,Junkx,2,2,6,7,999
-gm,Granit Musa,Azet,2,2,6,7,999
-gr,Ghassan Ramlawi,Zuna,2,2,6,7,999
-gs,Gregor Sahm,Younotus,2,2,6,7,999
-gs2,Gordian Scholz,Gordian Scholz,2,2,6,7,999
-gt,Giorgio Tuinfort,Giorgio Tuinfort,2,2,6,7,999
-hf,Helene Fischer,Helene Fischer,2,1,6,7,999
-jb,Jerome Bugnon,Seeed,2,2,6,7,999
-jd,Juergen Dohr,Junkx,2,2,6,7,999
-je,Jason Evigan,Jason Evigan,2,2,6,7,999
-jg,Jochen Gargitter,Frei.Wild,2,2,6,3,999
-jh,Julius Hartog ,Julius Hartog,2,2,6,3,999
-jk,Jacob Kasher,Jacob Kasher,2,2,6,7,999
-jlm,John Lorenz Moser,Bonez MC,2,2,6,7,999
-jn,Jonas Notdurfter,Frei.Wild,2,2,6,3,999
-jnl,Jonas Nikolaus Lang,Jonas Nikolaus Lang,2,2,6,7,999
-jo,Julian Otto,Bausa,2,2,6,7,999
-jp,Joachim Piehl,Joachim Piehl,2,2,6,7,999
-jr,John Ryan,John Ryan,2,2,6,7,999
-jt,Jasmine Ying Thompson ,Jasmine Thompson,2,1,6,3,999
-jwi,Julian Williams I,Julian Williams,2,2,6,7,999
-kb,kristinabach,Kristina Bach,2,1,6,7,999
-ks,Konstantin Scherer,Djorkaeff,2,2,6,7,999
-mb,Marcus Brosch,Marcus Brosch,2,2,6,7,999
-mc,Mark Cwiertnia,Mark Forster,2,2,6,7,999
-mh,Martin Haas ,Martin Haas,2,2,6,3,999
-mh2,Max Herre,Max Herre,2,2,6,7,999
-mks,Maxwell Kwabena Schaden,Maxwell,2,2,6,7,999
-ml,Marten Laciny,Marteria,2,2,6,7,999
-ml2,Michelle Leonard,Michelle Leonard,2,1,6,7,999
-mpp,Moses Peter Pelham,Moses Pelham,2,2,6,3,999
-mpw,Martin Peter Willumeit,Martin Peter Willumeit,2,2,6,7,999
-ms,Micka Schuermann,Micka Schuermann,2,2,6,7,999
-mw,Mario Wesser,Mario Wesser,2,2,6,7,999
-nr,Nicolas Rebscher,Nicolas Rebscher,2,2,6,7,999
-nw,Nico Wellenbrink,Nico Santos,2,2,6,7,999
-pa,Philipp Albinger,Philipp Albinger,2,2,6,7,999
-pb,Pierre Baigorry,Seeed,2,2,6,7,999
-pb2,Philipp Burger,Frei.Wild,2,2,6,3,999
-pd,Philipp Dausch,Milky Chance,2,2,6,7,999
-pk,Philipp Klemz,Philipp Klemz,2,2,6,7,999
-ps,Peter Stanowsky,KAIND,2,2,6,7,999
-ps2,Philipp Steinke,Philipp Steinke,2,2,6,7,999
-pw,Paul Wuerdig,Sido,2,2,6,7,999
-rcm,Ralf Christian Mayer,Ralf Christian Mayer,2,2,6,7,999
-rdj,Richard David Judge,J.U.D.G.E,2,2,6,7,999
-rr,Raphael Ragucci,RAF Camora,2,2,6,7,999
-rs,Robin Schulz,Robin Schulz,2,2,6,7,999
-sd,Stefan Dabruck,Stefan Dabruck,2,2,6,7,999
-sd3,Barbara Shirin Davidavicius,Shirin David,2,1,6,3,999
-shd,Simon Den Hartog,Simon den Hartog,2,2,6,7,999
-sk,Sebastian Kirchner,Sebastian Kirchner,2,2,6,7,999
-sk2,Sebastian Krajewski,Seeed,2,2,6,7,999
-sr,Sam Roman,Romans,2,2,6,7,999
-srw,Sune Rose Wagner ,Sune Rose Wagner,2,2,6,3,999
-ss,Sabrina Setlur,Sabrina Setlur,2,1,6,3,999
-sw,Sebastian Wehlings,Sebastian Wehlings,2,2,6,7,999
-tb,Tobias Bogdon,Younotus,2,2,6,7,999
-tc,Tobias Cordes,Seeed,2,2,6,7,999
-tfk,Tobias Felix Kuhn,Tobias Felix Kuhn,2,2,6,7,999
-tr,Torsten Reibold,Seeed,2,2,6,7,999
-tr2,Tobias Rieser,Klangkarussel,2,2,6,7,999
-trh,Thomas Richard Havelock,Tom Cane,2,2,6,3,999
-tw,Tim Wilke,The Cratez,2,2,6,7,999
-vk,Vito Kovach,Vito Kovach,2,2,6,7,999
-vs,Vincent Stein,SDP,2,2,6,7,999
-addn,Atemlos durch die Nacht,99,1,4,2,2,999
-s2,Sonnentanz,99,1,4,4,1,104
-omt,Ohne mein Team,99,1,4,1,4,88
-sd2,Stolen Dance,99,1,4,3,2,60
-gl,Geiles Leben,99,1,4,3,4,56
-eudw,Einmal um die Welt,99,1,4,3,1,55
-aaw,Auf anderen Wegen,99,1,4,3,3,53
-sgd,Sun goes down,99,1,4,4,3,50
-bik,Bilder im Kopf,99,1,4,1,1,48
-l,Lieder,99,1,4,3,2,46
-a,Augenbling,99,1,4,1,1,37
-c,Choere,99,1,4,3,4,37
-s,Stimme,99,1,4,3,4,31
-bi,Bad Ideas,99,1,4,4,4,29
-sml,Show me love,99,1,4,3,4,28
-k,Kids,99,1,4,1,2,25
-ne,Nummer Eins,99,1,4,1,5,24
-sal,Shed a Light,99,1,4,4,4,23
-wdln,Was du Liebe nennst,99,1,4,1,6,13
-dlmn,Du liebst mich nicht,99,1,4,3,3,10
-r,Rooftop,99,1,4,3,6,8
-bh,Blue Heart,99,1,4,3,3,5
-sm,Simple Man,99,1,4,3,2,5
-wbes,Wir brechen eure Seele,99,1,4,5,3,1
+t,name,kuenstlername,type ,sex ,genre ,date,dauer,sprache
+5ps,500 PS,99,1,4,1,6,55,1
+5s,5 Songs in einer Nacht,99,1,4,1,6,21,1
+80m,80 Millionen,99,1,4,3,4,38,1
+a,Augenbling,99,1,4,1,1,37,1
+aaw,Auf anderen Wegen,99,1,4,3,3,53,1
+ab,Andreas Bourani ,Andreas Bourani,2,2,6,7,999,3
+ab2,Alexander Busse,Alexander Busse,2,2,6,7,999,3
+acht,Achterbahn,99,1,4,2,5,14,1
+addn,Atemlos durch die Nacht,99,1,4,2,2,999,1
+adrh,Adrian David Rolf Held,Klangkarussel,2,2,6,7,999,3
+ae,Axel Mikael Ehnstroem,Axel Mikael Ehnstroem,2,2,6,7,999,3
+aet,Adel El Tawil,Adel Tawil,2,2,6,7,999,3
+af,Andreas Fabritius,Andreas Fabritius,2,2,6,7,999,3
+af2,Alexander Freund,Alexander Freund,2,2,6,7,999,3
+af3,Andreas Frege,Campino,2,2,6,7,999,3
+ag,Adulis Ghebreyesus,Adulis Ghebreyesus,2,2,6,7,999,3
+ag2,Andreas Gabalier,Andreas Gabalier,2,2,6,7,999,3
+agbo,Andres Gunnar Ballinas Olsson,Andres Gunnar Ballinas Olsson,2,2,6,7,999,3
+ahn,Ahnma,99,1,4,1,4,39,1
+aiv,An ihnen vorbei,99,1,4,1,4,18,1
+aj,Andreas Janetschko,Dj Stickle,2,2,6,7,999,3
+ajh,Andreas Josef Huber,Andreas Huber,2,2,6,7,999,3
+ak,Samuel Shari Aaliah Adomako,Ado Kojo,2,2,6,7,999,3
+ak2,Andreas Kuemmert,Andreas Kuemmert,2,2,6,7,999,3
+ak3,Adam Kesselhaut,Adam Kesselhaut,2,2,6,7,999,3
+akk,Amy Kathryn Kuney ,Amy Kathryn Kuney,2,1,6,7,999,3
+al,Ardijan Luboja,Ardijan Luboja,2,2,6,7,999,3
+al2,Alexander Laios,Alexander Laios,2,2,6,7,999,3
+all,Allein,99,1,4,1,6,15,1
+am,Andrew Murray,Andrew Murray,2,2,6,7,999,3
+am1,Alexander Müller,Alexander Müller,2,2,6,7,999,3
+am2,Ammar Malik,Ammar Malik,2,2,6,7,999,3
+am3,Andreas Mette,Andreas Mette,2,2,6,7,999,3
+am4,Alice Merton,Alice Merton,2,1,6,7,999,3
+amg2,amg2,99,1,4,1,5,12,1
+an,Anna Naklab ,Anna Naklab,2,1,6,7,999,3
+anlmb,Ain't nobody (loves me better),99,1,4,4,3,56,2
+apap,Applaus Applaus,99,1,4,3,1,39,1
+apr,Alexander Petrow Rethwisch,Stanfour,2,2,6,7,999,3
+ar,Ariya Rahimianpour,AriBeatz,2,2,6,7,999,3
+as,Arne Schult,Arne Schult,2,2,6,7,999,3
+as1,Andreas Schuller,Andreas Schuller,2,2,6,7,999,3
+as2,Aneta Sablik,Aneta Sablik,2,1,6,7,999,3
+as3,Astronaut,99,1,4,1,3,43,1
+as4,Alina Süggeler,Frida Gold,2,1,6,7,999,3
+asm,Alma-Sofia Miettinen,Alma,2,1,6,7,999,3
+asmuw,Amoi Seg Ma Uns Wieder,99,1,4,2,2,41,1
+at,Alexis Troy,Alexis Troy,2,2,6,7,999,3
+au,Auf Uns,99,1,4,3,2,80,1
+aur,Au Revoir,99,1,4,3,2,65,1
+avh,Andreas von Holst,Die Toten Hosen,2,2,6,7,999,3
+aw,Andreas Weizel,Frida Gold,2,2,6,7,999,3
+awdem,Als Waers Das Erste Mal,99,1,4,2,2,6,1
+az,Alexander Zuckowski,Ali Zuckowski,2,2,6,7,999,3
+b,Bonfire,99,1,4,3,4,29,2
+badc,Bad Chick,99,1,4,1,2,26,1
+bal,Baller los,99,1,4,1,6,23,1
+ball,Ballin,99,1,4,1,6,19,1
+bb,Benjamin Bistram,Biztram,2,2,6,7,999,3
+bb1,Bela B ,die Aerzte,2,2,6,7,999,3
+bc,Bonnie und Clyde,99,1,4,1,6,20,1
+bc2,Benjamin Cotto,Lilly Wood and the Prick,2,2,6,7,999,3
+bc3,Bianca Claßen,Bibi H.,2,1,6,7,999,3
+ben,Benzema,99,1,4,1,6,23,1
+benz,Mercedes,99,1,4,1,6,29,1
+bf,Boris Fleck,Boris Fleck,2,2,6,7,999,3
+bg,Benjamin Griffey,Casper,2,2,6,7,999,3
+bh,Blue Heart,99,1,4,3,2,5,2
+bhill,Beverly Hills,99,1,4,1,6,12,1
+bi,Bad Ideas,99,1,4,4,4,29,2
+bik,Bilder im Kopf,99,1,4,1,1,48,1
+bki,Bram Katz Inscore ,Bram Katz Inscore,2,2,6,7,999,3
+bl,Berlin lebt,99,1,4,1,6,16,1
+bms,Bei meiner Seele,99,1,4,3,1,19,1
+bol,Book of Love,99,1,4,4,3,25,2
+bt,Bernd Toast,Bernd Toast,2,2,6,7,999,3
+bush,Anis Mohamed Youssef Ferchichi,Bushido,2,2,6,7,999,3
+bv,Bon Voyage,99,1,4,1,5,34,1
+by,Bye Bye,99,1,4,1,3,31,1
+c,Choere,99,1,4,3,4,37,1
+c2,Cheerleader ,99,1,4,4,3,57,2
+ca,Casanova,99,1,4,1,6,37,1
+ca1,Cem Anhan,Capo,2,2,6,7,999,3
+cag,Can Gaygusuz,Can Gaygusuz,2,2,6,7,999,3
+cas,Charley Ann Schmutzler ,Charley Ann Schmutzler,2,1,6,7,999,3
+cata,Cataleya,99,1,4,1,6,19,1
+cb,Christoph Bauss,Shuko,2,2,6,7,999,3
+cc,Christoph Cronauer,Chris Cronauer,2,2,6,7,999,3
+ccr,Cecil Carlos Remmler,Cecil Remmler,2,2,6,7,999,3
+cd,Clifton Dillon,Clifton Dillon,2,2,6,7,999,3
+ce,Christoph Erkes,Christoph Erkes,2,2,6,7,999,3
+cea,Cem Anhan2,Cem Anhan,2,2,6,7,999,3
+cf,Christian Fohrer,Frei.Wild,2,2,6,7,999,3
+cg,Christopher John Gelbuda,Christopher John Gelbuda,2,2,6,7,999,3
+ch,Conrad Hensel,Conrad Hensel,2,2,6,7,999,3
+cm,Christoph Masbaum,Christoph Masbaum,2,2,6,7,999,3
+cm2,Charles Mason,Charles Mason,2,2,6,7,999,3
+cn,Carolin Niemczyk,Glasperlenspiel,2,1,6,7,999,3
+cr,Christian Raab,Christian Raab,2,2,6,7,999,3
+cr2,Clemens Rehbein,Milky Chance,2,2,6,7,999,3
+ct,Cem Toraman,Summer Cem,2,2,6,7,999,3
+cw,Carlo Waibel,Cro,2,2,6,7,999,3
+cysm,Christian Yun-Song Meyerholz,Christian Yun-Song Meyerholz,2,2,6,7,999,3
+da,DJ A Boom,DJ A Boom,2,2,6,7,999,3
+dab,David Barenboim,KD-Supier,2,2,6,7,999,3
+dac,Dmitrij Aleksandrovic Chpakov,Sun Diego,2,2,6,7,999,3
+dah,Daniel Hernandez,Daniel Hernandez,2,2,6,7,999,3
+db,Dennis Bierbrodt,Junkx,2,2,6,7,999,3
+db1,Dieter Günter Bohlen,Dieter Bohlen,2,2,6,7,999,3
+dc,David Conen,The Krauts,2,2,6,7,999,3
+dc2,Daniel Coros,Koree,2,2,6,7,999,3
+df,Daniel Faust,Daniel Faust,2,2,6,7,999,3
+dg,Daniel Grunenberg,Glasperlenspiel,2,2,6,7,999,3
+dg2,David Guetta,David Guetta,2,2,6,7,999,3
+dg3,Der Graf,Unheilig,2,2,6,7,999,3
+dg4,Daniel Gramer,Daniel Gramer,2,2,6,7,999,3
+dhb,Dirk Heinz Berger,The Krauts,2,2,6,7,999,3
+di,DJ Illvibe,The Krauts,2,2,6,7,999,3
+dil,Die immer lacht,99,1,4,3,3,62,1
+dior,DIOR 2001,99,1,4,1,6,29,1
+dj,David Juergens,David Juergens,2,2,6,7,999,3
+dk,David Kraft,The Cratez,2,2,6,7,999,3
+dkukn,Das kann uns keiner nehmen,99,1,4,3,1,19,1
+dl,Dominic Lorberg,Dominic Lorberg,2,2,6,7,999,3
+dl2,Dennis Lisk,Beginner,2,2,6,7,999,3
+dli,Dicke Lippen,99,1,4,3,6,2,1
+dljr,Donald Lane JR Mccray,Donald Lane JR Mccray,2,2,6,7,999,3
+dlmn,Du liebst mich nicht,99,1,4,3,3,10,1
+dm,Dardan Mushkolaj,Dardan,2,2,6,7,999,3
+dmeo,Dolores Mary Eileen O'Riordan,The Cranberries,2,1,6,7,999,3
+dn,Daniel Nitt,Daniel Nitt,2,2,6,7,999,3
+dn2,Demba Nabe,Seeed,2,2,6,7,999,3
+dog,Doggy,99,1,4,3,5,5,1
+ds,Dennis Stehr,Mr Probz,2,2,6,7,999,3
+ds2,Daniel Schneider,257ers,2,2,6,7,999,3
+dv,David Vogt,Beatgees,2,2,6,7,999,3
+dw,David Wolinski,Hawk Wolinski,2,2,6,7,999,3
+e,Eloah,99,1,4,1,6,11,1
+ebf,Eric Burton Frederic,Ricky Reed,2,2,6,7,999,3
+ed,Elif Demirezer,Elif,2,1,6,7,999,3
+eds,Einer dieser Steine,99,1,4,3,1,17,1
+ej,Erik Jaster,Erik Jaster,2,2,6,7,999,3
+em,Enes Meral,Mero,2,2,6,7,999,3
+emdl,Erklaere mir die Liebe,99,1,4,3,4,14,1
+eno,Ensar Albayrak,Eno,2,2,6,7,999,3
+eo,Edin Osmanovski,Edin Osmanovski,2,2,6,7,999,3
+es,Elzbieta Steinmetz,Elaiza,2,1,6,7,999,3
+et,Erick Torres,Erick Torres,2,2,6,7,999,3
+eu,Emanuel Uch,Emanuel Uch ,2,2,6,7,999,3
+eudw,Einmal um die Welt,99,1,4,3,1,55,1
+ewz,Es Wird Zeit,99,1,4,1,5,3,1
+f,Fame,99,1,4,1,6,17,1
+fac,Filippo Andrea Carmeni,Filippo Andrea Carmeni,2,2,6,7,999,3
+fad,Frank Alessa Delle,Seeed,2,2,6,7,999,3
+far,Farben,99,1,4,1,6,11,1
+fb,Felix Blume,Kollegah,2,2,6,7,999,3
+fc,Fightclub,99,1,4,1,6,6,1
+fea,Für euch alle,99,1,4,1,6,15,1
+fhea,Farid Hamed El Abdellaoui,Farid Bang,2,2,6,7,999,3
+fire,Feuer,99,1,4,1,6,13,1
+fj,Felix Jaehn,Felix Jaehn,2,2,6,7,999,3
+fjb,Fracisco Javier Jr Bautista,Frankie J,2,2,6,7,999,3
+fk,Frank Kretschmer,Frank Kretschmer,2,2,6,7,999,3
+flr,Florian Renner,Florian Renner,2,2,6,7,999,3
+fp,Frank Pilsl,Frank Pilsl,2,2,6,7,999,3
+fr,Fabian Roemer,F.R.,2,2,6,7,999,3
+fr2,Felix Raeuber,Felix Raeuber,2,2,6,7,999,3
+ft,Facetime,99,1,4,1,6,33,1
+fu,Farin Urlaub,die Aerzte,2,2,6,7,999,3
+fv1,Michael Beck,Die Fantastischen Vier,2,2,6,7,999,3
+fv2,Thomas Dürr,Die Fantastischen Vier,2,2,6,7,999,3
+fv3,Andreas Rieke,Die Fantastischen Vier,2,2,6,7,999,3
+fv4,Michael Bernd Schmidt,Die Fantastischen Vier,2,2,6,7,999,3
+fw,Florian Weber,Sportfreunde Stiller,2,2,6,7,999,3
+fw2,Fridolin Walcher,Fridolin Walcher,2,2,6,7,999,3
+fy,Francesco Yates,Francesco Yates,2,2,6,7,999,3
+fz,Frans Zimmer,Alle Farben,2,2,6,7,999,3
+ga,G A Saraf,G A Saraf,2,2,6,7,999,3
+game,Gamechanger,99,1,4,1,5,7,1
+gc,Guido Craveiro,Guido Craveiro,2,2,6,7,999,3
+gc1,Gotham City,99,1,4,1,5,15,1
+gc2,Graham Candy,Graham Candy,2,2,6,7,999,3
+gf,Grayson Finley,Grayson Finley,2,2,6,7,999,3
+gg,Goekhan Gueler,Goekhan Gueler,2,2,6,7,999,3
+gh,Giwar Hajabi,Xatar,2,2,6,7,999,3
+gj,Gjynah,99,1,4,1,5,6,1
+gk,Guido Kramer,Junkx,2,2,6,7,999,3
+gl,Geiles Leben,99,1,4,3,3,56,1
+glo,Glorious,99,1,4,3,1,14,2
+gm,Granit Musa,Azet,2,2,6,7,999,3
+gm2,Gregor Meyle,Gregor Meyle,2,2,6,7,999,3
+gm3,Gluecksmoment,99,1,4,3,4,6,1
+gm4,Georg Maier,Georg Maier,2,2,6,7,999,3
+gr,Ghassan Ramlawi,Zuna,2,2,6,7,999,3
+gr2,Gala Rizatto,Gala Rizatto,2,1,6,7,999,3
+gra,Gramoz Aliu,Mozzik,2,2,6,7,999,3
+grc,George Ripley Cauty,George Ripley Cauty,2,2,6,7,999,3
+gs,Gregor Sahm,Younotus,2,2,6,7,999,3
+gs2,Gordian Scholz,Gordian Scholz,2,2,6,7,999,3
+gt,Giorgio Tuinfort,Giorgio Tuinfort,2,2,6,7,999,3
+gw,Guido Weiss,Beginner,2,2,6,7,999,3
+gw1,Gerrit Wessendorf,Gee Futuristic,2,2,6,7,999,3
+gzuz,Kristoffer Jonas Klauß,Gzuz,2,2,6,7,999,3
+h,Hades,99,1,4,1,6,7,1
+h1,Herzbeben,99,1,4,2,5,36,1
+h2,Holz,99,1,4,1,4,32,1
+ha,Hussein Akkouche,Samra,2,2,6,7,999,3
+hab,Habibo,99,1,4,1,6,14,1
+hb,Hannes Buescher,Beatgees,2,2,6,7,999,3
+hb2,Heartbreaker,99,1,4,3,1,6,2
+hdm,Halt dein Maul,99,1,4,3,1,11,1
+hf,Helene Fischer,Helene Fischer,2,1,6,7,999,3
+hg,Herbert Arthur Groenemeyer,Herbert Groenemeyer,2,2,6,7,999,3
+hh,Hanan Hamdi,Namika,2,1,6,7,999,3
+hii,How It Is (Wap Bap...),99,1,4,3,5,2,2
+hl,Headlights,99,1,4,4,3,33,2
+hmm,Heute Mit Mir,99,1,4,1,5,44,1
+homh,Hero of my Heart,99,1,4,3,3,3,2
+hv,Henning Verlage,Unheilig,2,2,6,7,999,3
+hw,Hartmut Wessling,Hartmut Wessling,2,2,6,7,999,3
+ia,Iad Aslan,Iad Aslan,2,2,6,7,999,3
+ig,International Gangstas,99,1,4,1,6,5,1
+ihp,Ich hab Polizei,99,1,4,1,3,4,1
+iir,Is It Right,99,1,4,3,2,18,2
+ij,Ilsey Juber,Ilsey,2,1,6,7,999,3
+ik,Ilfan Kalender,Gringo,2,2,6,7,999,3
+ile,Ich liebe es,99,1,4,1,6,20,1
+ilfddla,Ich Lass Fuer Dich Das Licht An,99,1,4,3,2,53,1
+im,Im Ascheregen,99,1,4,1,1,14,1
+in,Inshallah,99,1,4,1,6,7,1
+ja,Joshua Allery,Joshua Allery,2,2,6,7,999,3
+jak,Jakob Krueger,Jakob Krueger,2,2,6,7,999,3
+jb,Jerome Bugnon,Seeed,2,2,6,7,999,3
+jb1,Jan Boehmermann,POL1Z1STENSOHN,2,2,6,7,999,3
+jb2,Jusef Bakir,Jusef bakir,2,2,6,7,999,3
+jc,Julian Cassel,Frida Gold,2,2,6,7,999,3
+jd,Juergen Dohr,Junkx,2,2,6,7,999,3
+je,Jason Evigan,Jason Evigan,2,2,6,7,999,3
+jeb,Jeffrey Boadi,Jeffrey Boadi,2,2,6,7,999,3
+jed,Jeremias Daniel,Jeremias Daniel,2,2,6,7,999,3
+jg,Jochen Gargitter,Frei.Wild,2,2,6,3,999,3
+jh,Julius Hartog ,Julius Hartog,2,2,6,3,999,3
+jh2,Jan Hammele,Jan Hammele,2,2,6,7,999,3
+jhb,James Hillier Blunt,James Blunt,2,2,6,7,999,3
+jhn,James Harry Nosanow,James Harry Nosanow,2,2,6,7,999,3
+jhr,John Henry Ryan,John Henry Ryan,2,2,6,7,999,3
+jidtl,Jetzt ist der Teufel los,99,1,4,2,3,1,1
+jj,Julia Jurewitsch,Julia Jurewitsch,2,1,6,7,999,3
+jk,Jacob Kasher,Jacob Kasher,2,2,6,7,999,3
+jk1,Jonathan Kiunke,Johnny Illstrument,2,2,6,7,999,3
+jk2,Jules Kalmbacher ,Jules Kalmbacher,2,2,6,7,999,3
+jl,Jonas Landerschier,Jonas Landerschier,2,2,6,7,999,3
+jl2,Johannes Löffler,Joznez,2,2,6,7,999,3
+jlm,John Lorenz Moser,Bonez MC,2,2,6,7,999,3
+jm,Ja Mann,99,1,4,1,6,5,1
+jm2,Julian Maas,Julian Maas,2,2,6,7,999,3
+jms,Joseph Michael Spargur,Joseph Michael Spargur,2,2,6,7,999,3
+jn,Jonas Notdurfter,Frei.Wild,2,2,6,3,999,3
+jn2,Jost Nickel,Jost Nickel,2,2,6,7,999,3
+jnl,Jonas Nikolaus Lang,Jonas Nikolaus Lang,2,2,6,7,999,3
+jnppf,Je ne parle pas français,99,1,4,3,6,36,1
+jo,Julian Otto,Bausa,2,2,6,7,999,3
+jop,Josh Petruccio,Josh Petruccio,2,2,6,7,999,3
+jp,Joachim Piehl,Joachim Piehl,2,2,6,7,999,3
+jp2,Joey Patulka,Joey Patulka,2,2,6,7,999,3
+jpe,Jan Phillip Eissfeldt,Jan Delay,2,2,6,7,999,3
+jr2,Jihad Rahmouni,Jihad Rahmouni,2,2,6,7,999,3
+jr3,Jens Rachut,Jens Rachut,2,2,6,7,999,3
+js,Johannes Strate,Revolverheld,2,2,6,7,999,3
+js2,Jakob Sinn,Revolverheld,2,2,6,7,999,3
+js3,Jens Schneider,Jens Schneider,2,2,6,7,999,3
+jt,Jasmine Ying Thompson ,Jasmine Thompson,2,1,6,3,999,3
+juju,Judith Wessendorf,Juju,2,1,6,7,999,3
+jus,Julien Schwarzer,Julien Schwarzer,2,2,6,7,999,3
+jv,Josef Valenzuela,Josef Valenzuela,2,2,6,7,999,3
+jwi,Julian Williams I,Julian Williams,2,2,6,7,999,3
+jwm,Johannes Walter Mueller,Joe Walter,2,2,6,7,999,3
+k,Kids,99,1,4,1,1,25,1
+k2,King,99,1,4,1,2,7,1
+ka,Kalil Aubeidy,King Khalil,2,2,6,7,999,3
+kb,kristinabach,Kristina Bach,2,1,6,7,999,3
+keh,Khaled El Hawi,Khaled El Hawi,2,2,6,7,999,3
+ken,Kennzeichen B-TK,99,1,4,1,6,14,1
+kf,Korbinian Franke,Koby Funk,2,2,6,7,999,3
+kg,Kenneth Gamble,Kenneth Gamble,2,2,6,7,999,3
+kg1,Kenneth Glöckler,Kay One,2,2,6,7,999,3
+kg2,Konstantin Gropper,Konstantin Gropper,2,2,6,7,999,3
+kh,Kristoffer Huenecke,Revolverheld,2,2,6,7,999,3
+kiwd,Keine Ist Wie Du,99,1,4,3,2,10,1
+kl,Katharina Loewel,Katharina Loewel,2,1,6,7,999,3
+km,Katharina Mueller,Katharina Mueller,2,1,6,7,999,3
+ko,Kompanie,99,1,4,1,6,5,1
+koe,Königlich,99,1,4,2,6,3,1
+koka,Kokain,99,1,4,1,6,27,1
+kott,Kerstin Ott,Kerstin Ott,2,1,6,7,999,3
+kr,Kevin Russel,Boehse Onkelz,2,2,6,7,999,3
+kri,Kriminell,99,1,4,1,6,8,1
+ks,Konstantin Scherer,Djorkaeff,2,2,6,7,999,3
+ks1,Konrad Sommermeyer,Konrad Sommermeyer,2,2,6,7,999,3
+kt,Konstantinos Tzikas,Konstantinos Tzikas,2,2,6,7,999,3
+kv,Katrin Vogelová,Katja Krasavice,2,1,6,7,999,3
+kw,Kaspar Wiens,Tropf,2,2,6,7,999,3
+l,Lieder,99,1,4,3,2,46,1
+la,Laurin Auth,Laurin Auth,2,2,6,7,999,3
+lb,Lieven Brunckhorst,Lieven Brunckhorst,2,2,6,7,999,3
+leb,Leonardo Benincasa,Leonardo Benincasa,2,2,6,7,999,3
+lele,Lelele,99,1,4,1,6,13,1
+lfc,Luís-Florentino Cruz,Lucry,2,2,6,7,999,3
+lg,Loomis Green,Loomis Green,2,2,6,7,999,3
+lh,Leon Huff,Leon Huff,2,2,6,7,999,3
+lh1,Lukas Hainer,Lukas Hainer,2,2,6,7,999,3
+limr,Liebe ist meine Rebellion,99,1,4,3,1,21,1
+ll,Louis Louis,99,1,4,1,5,19,1
+lm,Lieblingsmensch,99,1,4,3,3,43,1
+lml,Lena Meyer-Landruth,Lena,2,1,6,7,999,3
+lp,Lukas Piano,Lukas Piano,2,2,6,7,999,3
+lsh,Larissa Sirah Herden,Lary,2,1,6,7,999,3
+lug,Lass Uns Gehen,99,1,4,3,2,35,1
+lw,Lisa Wohlgemuth,Lisa Wohlgemuth,2,1,6,7,999,3
+lz,Loredana Zefi,Loredana,2,1,6,7,999,3
+m,Magisch,99,1,4,1,6,33,1
+m1,Millionär,99,1,4,1,5,18,1
+mam,Maureen Anne McDonald,Mozella,2,1,6,7,999,3
+mas,Michael Anthony Schulte,Michael Anthony Schulte,2,2,6,7,999,3
+maw,Marvin Allen Webb,Marv,2,2,6,7,999,3
+maxe,MAXE,MAXE,2,2,6,7,999,3
+mb,Marcus Brosch,Marcus Brosch,2,2,6,7,999,3
+mb1,Marc Bradford,Marc Bradford,2,2,6,7,999,3
+mc,Mark Cwiertnia,Mark Forster,2,2,6,7,999,3
+mc1,Mon Chéri,99,1,4,1,5,10,1
+md,Maximilian Diehn,Kontra K,2,2,6,7,999,3
+meer,Meer,99,1,4,1,6,18,1
+mel,Melodien,99,1,4,1,6,33,1
+mem,Mohamed El Moussaoui,MoTrip,2,2,6,7,999,3
+meph,Mephisto,99,1,4,1,6,3,3
+mes,Melvin Schmitz,Melvin Schmitz,2,2,6,7,999,3
+met,Melanie Thornton,Melanie Thornton,2,1,6,7,999,3
+mf,Martin Fliegenschmidt,Fly,2,2,6,7,999,3
+mg,Mike Gommering,Mike Gommering,2,2,6,7,999,3
+mg2,Markus Ganter,Markus Ganter,2,2,6,7,999,3
+mg3,Max Giesinger,Max Giesinger ,2,2,6,7,999,3
+mh,Martin Haas ,Martin Haas,2,2,6,3,999,3
+mh2,Max Herre,Max Herre,2,2,6,7,999,3
+mh3,Martin Hofele,Martin Hofele,2,2,6,7,999,3
+mh4,Mohamad Hoteit,The Royals,2,2,6,7,999,3
+mk,Michael Kurth,Michael Kurth,2,2,6,7,999,3
+mks,Maxwell Kwabena Schaden,Maxwell,2,2,6,7,999,3
+ml,Marten Laciny,Marteria,2,2,6,7,999,3
+ml2,Michelle Leonard,Michelle Leonard,2,1,6,7,999,3
+mltw,Menschen Leben Tanzen Welt,99,1,4,3,5,3,1
+mm,Manuel Mayer,Manuel Mayer,2,2,6,7,999,3
+mm2, Maurizio Molella,Maurizio Molella,2,2,6,7,999,3
+mmh,Martin Maria Haller,Martin Haller,2,2,6,7,999,3
+mon,Moneygram,99,1,4,1,6,12,1
+mor,Morgen,99,1,4,3,2,6,1
+mp,Marek Pompetzki,Marek Pompetzki,2,2,6,7,999,3
+mpp,Moses Peter Pelham,Moses Pelham,2,2,6,3,999,3
+mpshr,Messiah Prince Sheridan Damien Ritzinger,Prince Damien,2,2,6,7,999,3
+mpw,Martin Peter Willumeit,Martin Peter Willumeit,2,2,6,7,999,3
+mr,Michael Roetgens,Michael Roetgens,2,2,6,7,999,3
+mr2,Matthias Roehr,Boehse Onkelz,2,2,6,7,999,3
+mr3,Manuel Reuter,Cascada,2,2,6,7,999,3
+mr4,Matthias Roll,Y-Titty,2,2,6,7,999,3
+mr5,Mike Rohleder,257ers,2,2,6,7,999,3
+ms,Micka Schuermann,Micka Schuermann,2,2,6,7,999,3
+ms1,Marcel Stephan,Gestoert aber geil,2,2,6,7,999,3
+ms2,Maikel Schulist,Maikel Schulist,2,2,6,7,999,3
+ms3,Mehmet Seyitoglu,Azzi Memo,2,2,6,7,999,3
+mt,Markus Tombuelt,Unheilig,2,2,6,7,999,3
+mt1,Michael Tomm,Michael Tomm,2,2,6,7,999,3
+mu,Marcel Uhde,Juh-Dee,2,2,6,7,999,3
+mw,Mario Wesser,Mario Wesser,2,2,6,7,999,3
+mwe,Marie Wegener ,Marie Wegener ,2,1,6,7,999,3
+mz,Matthias Zuerkler,B-Case,2,2,6,7,999,3
+n,Neymar,99,1,4,1,6,42,1
+nbm,Nili Ben Meir,Lilly Wood and the Prick,2,1,6,7,999,3
+ne,Nummer Eins,99,1,4,1,5,24,1
+nh,Natalie Horler,Cascada,2,1,6,7,999,3
+nimo,Nima Yaghobi,Nimo,2,2,6,7,999,3
+nk,Niklas Köllner,Niklas Köllner,2,2,6,7,999,3
+nkg,Niels Kristian Groetsch,Revolverheld,2,2,6,7,999,3
+np,Natalie Ploeger,Elaiza,2,1,6,7,999,3
+np1,Nathan Perez,Nathan Perez,2,2,6,7,999,3
+npi,Nisse Peter Ingwersen,Nisse Peter Ingwersen,2,2,6,7,999,3
+nr,Nicolas Rebscher,Nicolas Rebscher,2,2,6,7,999,3
+nr1,No Roots,99,1,4,3,4,39,2
+ns,Nicole Schettler,Nicole Schettler,2,1,6,7,999,3
+nu,Nummer unterdrückt,99,1,4,1,6,13,1
+nv,Nie vergessen,99,1,4,3,1,24,1
+nw,Nico Wellenbrink,Nico Santos,2,2,6,7,999,3
+nw1,Nico Wendel,Gestoert aber geil,2,2,6,7,999,3
+og,Oliver Galle,Oliver Galle,2,2,6,7,999,3
+ok,Olexij Kossarew,Olexesh,2,2,6,7,999,3
+ok1,OK,99,1,4,4,5,38,2
+omg,OMG,99,1,4,1,2,26,1
+omt,Ohne mein Team,99,1,4,1,4,88,1
+ons,One Night Stand,99,1,4,1,6,30,1
+op,Oliver Pum,Oliver Pum,2,2,6,7,999,3
+osp,Omar Samuel Pasley,Omi,2,2,6,7,999,3
+ow,Olli Wong,Olli Wong,2,2,6,7,999,3
+oy,Oguz Yilmaz,Y-Titty,2,2,6,7,999,3
+p,Power,99,1,4,1,6,6,1
+p1,Primo,99,1,4,1,5,37,1
+pa,Philipp Albinger,Philipp Albinger,2,2,6,7,999,3
+pag,Patrick Großmann,Luciano,2,2,6,7,999,3
+pag2,Palmen aus gold,99,1,4,1,4,16,1
+pap,Palmen aus Plastik,99,1,4,1,4,53,1
+paw,Pascal Woelki,Pascal Woelki,2,2,6,7,999,3
+pb,Pierre Baigorry,Seeed,2,2,6,7,999,3
+pb2,Philipp Burger,Frei.Wild,2,2,6,3,999,3
+pb3,Philip Boellhoff,Beatgees,2,2,6,7,999,3
+pd,Philipp Dausch,Milky Chance,2,2,6,7,999,3
+pd1,Philipp Dittberner,Philipp Dittberner,2,2,6,7,999,3
+pf,Perfekt,99,1,4,1,6,17,1
+pg,Polina Goudieva,Polina,2,1,6,7,999,3
+ph,Philippe Heithier,Philippe Heithier,2,2,6,7,999,3
+phae,Phänomenal,99,1,4,3,6,14,1
+phr,Phil Ratey,Phil Ratey,2,2,6,7,999,3
+pic,Prayer in C,99,1,4,4,2,59,2
+pk,Philipp Klemz,Philipp Klemz,2,2,6,7,999,3
+pk2,Philipp Kacza,Philipp Kacza,2,2,6,7,999,3
+pkr,Pascal Kalli Reinhardt,Pascal Reinhardt,2,2,6,7,999,3
+pl,Pietro Lombardi,Pietro Lombardi,2,2,6,7,999,3
+pl2,Philipp Laude ,Y-Titty,2,2,6,7,999,3
+pn,Paul Neumann,Paul Nza,2,2,6,7,999,3
+pp,Peter Plate,Rosenstolz,2,2,6,7,999,3
+pp2,Philipp Dominik Poisel,Philipp Poisel,2,2,6,7,999,3
+pr,Philipp Rauenbusch,Philipp Rauenbusch,2,2,6,7,999,3
+pro,Prominent,99,1,4,1,6,5,1
+ps,Peter Stanowsky,KAIND,2,2,6,7,999,3
+ps2,Philipp Steinke,Philipp Steinke,2,2,6,7,999,3
+ps3,Philipp Schardt,Philipp Schardt,2,2,6,7,999,3
+ps4,Peter Schorowsky,Boehse Onkelz,2,2,6,7,999,3
+psb,Peter Stephan Brugger,Sportfreunde Stiller,2,2,6,7,999,3
+ptr,Please tell rosie,99,1,4,3,4,29,2
+pw,Paul Wuerdig,Sido,2,2,6,7,999,3
+r,Rooftop,99,1,4,3,6,8,2
+rart,RagoArt,RagoArt,2,2,6,7,999,3
+rcm,Ralf Christian Mayer,Ralf Christian Mayer,2,2,6,7,999,3
+rd,Ryan Dillon,Ryan Dillon,2,2,6,7,999,3
+rdj,Richard David Judge,J.U.D.G.E,2,2,6,7,999,3
+rdls,Romeo de los Santos,Romeo de los Santos,2,2,6,7,999,3
+re,Rico Einenkel,Stereoact,2,2,6,7,999,3
+rg,Raymond Michael Garvey,Rae Garvey,2,2,6,7,999,3
+rg1,Rodrigo González,die Aerzte,2,2,6,7,999,3
+rgg,Roli Glitzer Glitzer,99,1,4,1,6,12,1
+rh,Robin Haefs,Mad Maks,2,2,6,7,999,3
+rin,Renato Simunovic,RIN,2,2,6,7,999,3
+risk,Risiko,99,1,4,1,6,14,1
+rl,Ruediger Linhof,Sportfreunde Stiller,2,2,6,7,999,3
+rlap,Rise Like A Phoenix,99,1,4,3,2,4,2
+rmr,Ruth-Maria Renner,Miss Platnum,2,1,6,7,999,3
+rojrs,Ronald Oneil JR Spence,Ronald Oneil JR Spence,2,2,6,7,999,3
+rr,Raphael Ragucci,RAF Camora,2,2,6,7,999,3
+rrb,Ronald Ray Bryant,Baby Bash,2,2,6,7,999,3
+rrw,Robin Ralf Wick,Robin Ralf Wick,2,2,6,7,999,3
+rs,Robin Schulz,Robin Schulz,2,2,6,7,999,3
+rsc,Ricco Schoenebeck,Ricco Schoenebeck,2,2,6,7,999,3
+rt,Robin Andrej Tadic,Robin Tadic,2,2,6,7,999,3
+rwr,Rap wieder Rap,99,1,4,1,5,3,1
+s,Stimme,99,1,4,3,3,31,1
+s2,Sonnentanz,99,1,4,4,1,104,1
+sa,Sturmmaske Auf (Intro),99,1,4,1,5,14,1
+sah,Sami Abdel-Hadi,Sami Abdel-Hadi,2,2,6,7,999,3
+sal,Shed a Light,99,1,4,4,4,23,2
+samy,Samy Sorge,Samy Sorge,2,2,6,7,999,3
+sc,Sarah Connor,Sarah Connor,2,1,6,7,999,3
+sd,Stefan Dabruck,Stefan Dabruck,2,2,6,7,999,3
+sd2,Stolen Dance,99,1,4,3,1,60,2
+sd3,Barbara Shirin Davidavicius,Shirin David,2,1,6,3,999,3
+sd4,Sly Dunbar,Sly Dunbar,2,2,6,7,999,3
+se,Siyawasch Emtiazi,Siyawasch Emtiazi,2,2,6,7,999,3
+sen,Senorita,99,1,4,1,5,44,1
+sex,Sex Tape,99,1,4,1,6,7,1
+sg,Sylvia Gordon,Sylvia Gordon,2,1,6,7,999,3
+sg1,Supergirl,99,1,4,4,3,42,2
+sgd,Sun goes down,99,1,4,4,2,50,2
+shd,Simon Den Hartog,Simon den Hartog,2,2,6,7,999,3
+shm,She Moves (Far Away),99,1,4,4,2,32,2
+sj,Sebastian John,Sebastian John,2,2,6,7,999,3
+sk,Sebastian Kirchner,Sebastian Kirchner,2,2,6,7,999,3
+sk2,Sebastian Krajewski,Seeed,2,2,6,7,999,3
+skoh,Skam Koh,99,1,4,1,6,7,1
+sl,Sonu Lal,Sonu Lal,2,2,6,7,999,3
+sm,Simple Man ,99,1,4,3,2,5,2
+sm1,Steve McCutcheon,Steve Mac,2,2,6,7,999,3
+sml,Show me love,99,1,4,3,3,28,2
+sml1,Simon Müller-Lerch,Sera Finale,2,2,6,7,999,3
+sn,Sag Nix,99,1,4,1,5,16,1
+snl,Schrei nach Liebe,99,1,4,5,3,37,1
+sp,St Pauli,99,1,4,5,2,999,1
+sp1,Sebastian Padotzke,Sebastian Padotzke,2,2,6,7,999,3
+sr,Sam Roman,Romans,2,2,6,7,999,3
+srn,Sascha-Ramy Nour,Hanybal,2,2,6,7,999,3
+srw,Sune Rose Wagner ,Sune Rose Wagner,2,2,6,3,999,3
+ss,Sabrina Setlur,Sabrina Setlur,2,1,6,3,999,3
+ss1,Sipho Silio,Beatgees,2,2,6,7,999,3
+ss2,Sebastian Seidel ,Stereoact,2,2,6,7,999,3
+ss3,Sam Sommer,Sam Sommer,2,2,6,7,999,3
+ss4,Stephanie Stumph,Stephanie Stumph,2,1,6,7,999,3
+st,Simon Triebel,Simon Triebel,2,2,6,7,999,3
+sta,Standard,99,1,4,1,6,29,1
+str,Stefan Richter,Trettmann,2,2,6,7,999,3
+su,Sugar,99,1,4,4,3,55,2
+sv,Severino,Severino Seeger,2,2,6,7,999,3
+sw,Sebastian Wehlings,Sebastian Wehlings,2,2,6,7,999,3
+sw1,Stephan Weidner,Boehse Onkelz,2,2,6,7,999,3
+swdb,So wie du bist,99,1,4,1,3,42,1
+tata,Tausend Tattoos,99,1,4,1,6,29,1
+tb,Tobias Bogdon,Younotus,2,2,6,7,999,3
+tb1,Thorsten Brötzmann,Thorsten Brötzmann,2,2,6,7,999,3
+tc,Tobias Cordes,Seeed,2,2,6,7,999,3
+tc2,Tony Cornelissen,Tony Cornelissen,2,2,6,7,999,3
+tfk,Tobias Felix Kuhn,Tobias Felix Kuhn,2,2,6,7,999,3
+th,Thomas Holtgreve,Frida Gold,2,2,6,7,999,3
+thb,Thomas Burchia,Thomas Burchia,2,2,6,7,999,3
+titu,Timur Turkay,Timur Turkay,2,2,6,7,999,3
+tjm,Timothy John Myers,Tim Myers,2,2,6,7,999,3
+tk,Thomas Keßler,X-plosive,2,2,6,7,999,3
+tn,Thomas Neuwirth,Conchita Wurst,2,2,6,7,999,3
+to,Thomas Olbrich,Thomas Olbrich,2,2,6,7,999,3
+to2,The One,99,1,4,3,2,14,2
+to3,Tilmann Otto,Gentleman,2,2,6,7,999,3
+tp,Tom Peyton ,Tom Peyton,2,2,6,7,999,3
+tr,Torsten Reibold,Seeed,2,2,6,7,999,3
+tr2,Tobias Rieser,Klangkarussel,2,2,6,7,999,3
+tr3,Tobias Riether,Tobee,2,2,6,7,999,3
+tr4,Traum,99,1,4,3,2,47,1
+trh,Thomas Richard Havelock,Tom Cane,2,2,6,3,999,3
+ts,Thomas Stengaard,Thomas Stengaard,2,2,6,7,999,3
+tsc,Toni Schoenebeck,Toni Schoenebeck,2,2,6,7,999,3
+tt,Tamam Tamam,99,1,4,1,6,26,1
+tw,Tim Wilke,The Cratez,2,2,6,7,999,3
+ub,Uwe Bossert,Uwe Bossert,2,2,6,7,999,3
+udw,Unter den Wolken,99,1,4,5,5,7,1
+uen,Über Nacht,99,1,4,1,6,6,1
+uff,UFF,99,1,4,1,6,20,1
+ufo361,Ufuk Bayraktar,Ufo361,2,2,6,7,999,3
+uls,Ulf Leo Sommer,Ulf Leo Sommer,2,2,6,7,999,3
+umh,Unter meiner Haut,99,1,4,4,3,56,1
+uul,Unvergessen unvergänglich lebenslänglich,99,1,4,5,3,1,1
+vaga,Vagabund,99,1,4,1,6,16,1
+vb,Vladislav Balovatsky,Capital Bra,2,2,6,7,999,3
+vc,Valentino Camouflage,99,1,4,1,6,8,1
+vdd,Jakob Epifanov,voddi257,2,2,6,7,999,3
+vg,Veysel Gelin,Veysel,2,2,6,7,999,3
+vig,Von ihnen gelernt,99,1,4,1,6,3,1
+vk,Vito Kovach,Vito Kovach,2,2,6,7,999,3
+vs,Vincent Stein,SDP,2,2,6,7,999,3
+w,Waves,99,1,4,4,2,59,2
+w2,Whatever,99,1,4,3,1,30,1
+w4,Wolke 4,99,1,4,3,3,52,1
+w7,Wolke 7 ,99,1,4,1,6,4,1
+wa,Warum,99,1,4,1,6,6,1
+wb,Wir bleiben ,99,1,4,5,3,4,1
+wbes,Wir brechen eure Seele,99,1,4,5,2,1,1
+wdln,Was du Liebe nennst,99,1,4,1,6,13,1
+we,Was erlebt,99,1,4,1,6,8,1
+wf,Wild & Free,99,1,4,3,3,29,2
+whdg,Was hast du gedacht,99,1,4,1,6,7,1
+wsdb,Wie schoen du bist,99,1,4,3,3,45,1
+wsg,Wir sind groß,99,1,4,3,4,29,1
+wst,Wenn sie tanzt,99,1,4,3,4,26,1
+wt,Wim Treuner,Wim Treuner,2,2,6,7,999,3
+ww,Wincent Weiss,Wincent Weiss,2,2,6,7,999,3
+xn,Xavier Naidoo,Xavier Naidoo,2,2,6,7,999,3
+yb,Yassine Baybah,Miami Yacine,2,2,6,7,999,3
+yc,Yunus Cimen,Kingsize,2,2,6,7,999,3
+yg,Yvonne Gruenwald,Elaiza,2,1,6,7,999,3
+ylmwa,You let me walk alone,99,1,4,3,6,8,2
+yp,Yann Peifer,Casacada,2,2,6,7,999,3
+z,Zusammen,99,1,4,3,6,27,1
+zdra,Zieh' den Rucksack aus,99,1,4,1,5,15,1
+zoey,Zoey,99,1,4,1,6,12,1
+zzg,Zeit zu gehen,99,1,4,3,2,14,1
