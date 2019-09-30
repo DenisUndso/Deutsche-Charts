@@ -99,6 +99,9 @@ bush,meph,2
 bush,meph,3
 ca1,mc1,1
 ca1,mc1,2
+ca1,ig,2
+ca1,zoey,1
+ca1,zoey,2
 cag,benz,3
 cas,bh,1
 cb,tr4,3
@@ -109,9 +112,6 @@ ccr,eds,3
 cd,c2,2
 cd,c2,3
 ce,sta,3
-cea,ig,2
-cea,zoey,1
-cea,zoey,2
 cf,uul,1
 cf,wbes,1
 cg,bi,2
@@ -666,7 +666,7 @@ lg,sp,3
 lh,bms,2
 lh,bms,3
 lh1,h1,2
-lm,udw,2
+ml,udw,2
 lml,wf,1
 lml,wf,3
 lp,cata,3
@@ -675,6 +675,8 @@ lp,meph,3
 lsh,swdb,1
 lsh,swdb,2
 lw,hb2,1
+lz,bc,2
+lz,bc,1
 mam,ok1,2
 mam,ok1,3
 mas,ylmwa,1
@@ -1187,5 +1189,6 @@ yc,k2,3
 yg,iir,1
 yp,glo,2
 yp,glo,3
-lz,bc,2
-lz,bc,1
+jms,hl,2
+jms,hl,3
+fw2,tr4,3

@@ -1,4 +1,4 @@
-t,name,kuenstlername,type ,sex ,genre ,date,dauer,sprache
+id,name,kuenstlername,type ,sex ,genre ,date,dauer,sprache
 5ps,500 PS,99,1,4,1,6,55,1
 5s,5 Songs in einer Nacht,99,1,4,1,6,21,1
 80m,80 Millionen,99,1,4,3,4,38,1
@@ -90,7 +90,6 @@ cc,Christoph Cronauer,Chris Cronauer,2,2,6,7,999,3
 ccr,Cecil Carlos Remmler,Cecil Remmler,2,2,6,7,999,3
 cd,Clifton Dillon,Clifton Dillon,2,2,6,7,999,3
 ce,Christoph Erkes,Christoph Erkes,2,2,6,7,999,3
-cea,Cem Anhan2,Cem Anhan,2,2,6,7,999,3
 cf,Christian Fohrer,Frei.Wild,2,2,6,7,999,3
 cg,Christopher John Gelbuda,Christopher John Gelbuda,2,2,6,7,999,3
 ch,Conrad Hensel,Conrad Hensel,2,2,6,7,999,3
@@ -213,7 +212,7 @@ hdm,Halt dein Maul,99,1,4,3,1,11,1
 hf,Helene Fischer,Helene Fischer,2,1,6,7,999,3
 hg,Herbert Arthur Groenemeyer,Herbert Groenemeyer,2,2,6,7,999,3
 hh,Hanan Hamdi,Namika,2,1,6,7,999,3
-hii,How It Is (Wap Bap...),99,1,4,3,5,2,2
+hii,How It Is (Wap Bap),99,1,4,3,5,2,2
 hl,Headlights,99,1,4,4,3,33,2
 hmm,Heute Mit Mir,99,1,4,1,5,44,1
 homh,Hero of my Heart,99,1,4,3,3,3,2
@@ -279,7 +278,7 @@ jwm,Johannes Walter Mueller,Joe Walter,2,2,6,7,999,3
 k,Kids,99,1,4,1,1,25,1
 k2,King,99,1,4,1,2,7,1
 ka,Kalil Aubeidy,King Khalil,2,2,6,7,999,3
-kb,kristinabach,Kristina Bach,2,1,6,7,999,3
+kb,Kristina Bach,Kristina Bach,2,1,6,7,999,3
 keh,Khaled El Hawi,Khaled El Hawi,2,2,6,7,999,3
 ken,Kennzeichen B-TK,99,1,4,1,6,14,1
 kf,Korbinian Franke,Koby Funk,2,2,6,7,999,3
@@ -306,14 +305,14 @@ la,Laurin Auth,Laurin Auth,2,2,6,7,999,3
 lb,Lieven Brunckhorst,Lieven Brunckhorst,2,2,6,7,999,3
 leb,Leonardo Benincasa,Leonardo Benincasa,2,2,6,7,999,3
 lele,Lelele,99,1,4,1,6,13,1
-lfc,Luís-Florentino Cruz,Lucry,2,2,6,7,999,3
+lfc,Luís Florentino Cruz,Lucry,2,2,6,7,999,3
 lg,Loomis Green,Loomis Green,2,2,6,7,999,3
 lh,Leon Huff,Leon Huff,2,2,6,7,999,3
 lh1,Lukas Hainer,Lukas Hainer,2,2,6,7,999,3
 limr,Liebe ist meine Rebellion,99,1,4,3,1,21,1
 ll,Louis Louis,99,1,4,1,5,19,1
 lm,Lieblingsmensch,99,1,4,3,3,43,1
-lml,Lena Meyer-Landruth,Lena,2,1,6,7,999,3
+lml,Lena Meyer Landruth,Lena,2,1,6,7,999,3
 lp,Lukas Piano,Lukas Piano,2,2,6,7,999,3
 lsh,Larissa Sirah Herden,Lary,2,1,6,7,999,3
 lug,Lass Uns Gehen,99,1,4,3,2,35,1
@@ -328,7 +327,7 @@ maxe,MAXE,MAXE,2,2,6,7,999,3
 mb,Marcus Brosch,Marcus Brosch,2,2,6,7,999,3
 mb1,Marc Bradford,Marc Bradford,2,2,6,7,999,3
 mc,Mark Cwiertnia,Mark Forster,2,2,6,7,999,3
-mc1,Mon Chéri,99,1,4,1,5,10,1
+mc1,Mon Cheri,99,1,4,1,5,10,1
 md,Maximilian Diehn,Kontra K,2,2,6,7,999,3
 meer,Meer,99,1,4,1,6,18,1
 mel,Melodien,99,1,4,1,6,33,1
@@ -350,7 +349,7 @@ ml,Marten Laciny,Marteria,2,2,6,7,999,3
 ml2,Michelle Leonard,Michelle Leonard,2,1,6,7,999,3
 mltw,Menschen Leben Tanzen Welt,99,1,4,3,5,3,1
 mm,Manuel Mayer,Manuel Mayer,2,2,6,7,999,3
-mm2, Maurizio Molella,Maurizio Molella,2,2,6,7,999,3
+mm2,Maurizio Molella,Maurizio Molella,2,2,6,7,999,3
 mmh,Martin Maria Haller,Martin Haller,2,2,6,7,999,3
 mon,Moneygram,99,1,4,1,6,12,1
 mor,Morgen,99,1,4,3,2,6,1
@@ -450,7 +449,7 @@ rin,Renato Simunovic,RIN,2,2,6,7,999,3
 risk,Risiko,99,1,4,1,6,14,1
 rl,Ruediger Linhof,Sportfreunde Stiller,2,2,6,7,999,3
 rlap,Rise Like A Phoenix,99,1,4,3,2,4,2
-rmr,Ruth-Maria Renner,Miss Platnum,2,1,6,7,999,3
+rmr,Ruth Maria Renner,Miss Platnum,2,1,6,7,999,3
 rojrs,Ronald Oneil JR Spence,Ronald Oneil JR Spence,2,2,6,7,999,3
 rr,Raphael Ragucci,RAF Camora,2,2,6,7,999,3
 rrb,Ronald Ray Bryant,Baby Bash,2,2,6,7,999,3
@@ -461,7 +460,7 @@ rt,Robin Andrej Tadic,Robin Tadic,2,2,6,7,999,3
 rwr,Rap wieder Rap,99,1,4,1,5,3,1
 s,Stimme,99,1,4,3,3,31,1
 s2,Sonnentanz,99,1,4,4,1,104,1
-sa,Sturmmaske Auf (Intro),99,1,4,1,5,14,1
+sa,Sturmmaske Auf Intro,99,1,4,1,5,14,1
 sah,Sami Abdel-Hadi,Sami Abdel-Hadi,2,2,6,7,999,3
 sal,Shed a Light,99,1,4,4,4,23,2
 samy,Samy Sorge,Samy Sorge,2,2,6,7,999,3
@@ -486,13 +485,13 @@ sl,Sonu Lal,Sonu Lal,2,2,6,7,999,3
 sm,Simple Man ,99,1,4,3,2,5,2
 sm1,Steve McCutcheon,Steve Mac,2,2,6,7,999,3
 sml,Show me love,99,1,4,3,3,28,2
-sml1,Simon Müller-Lerch,Sera Finale,2,2,6,7,999,3
+sml1,Simon Müller Lerch,Sera Finale,2,2,6,7,999,3
 sn,Sag Nix,99,1,4,1,5,16,1
 snl,Schrei nach Liebe,99,1,4,5,3,37,1
 sp,St Pauli,99,1,4,5,2,999,1
 sp1,Sebastian Padotzke,Sebastian Padotzke,2,2,6,7,999,3
 sr,Sam Roman,Romans,2,2,6,7,999,3
-srn,Sascha-Ramy Nour,Hanybal,2,2,6,7,999,3
+srn,Sascha Ramy Nour,Hanybal,2,2,6,7,999,3
 srw,Sune Rose Wagner ,Sune Rose Wagner,2,2,6,3,999,3
 ss,Sabrina Setlur,Sabrina Setlur,2,1,6,3,999,3
 ss1,Sipho Silio,Beatgees,2,2,6,7,999,3
@@ -557,7 +556,7 @@ wb,Wir bleiben ,99,1,4,5,3,4,1
 wbes,Wir brechen eure Seele,99,1,4,5,2,1,1
 wdln,Was du Liebe nennst,99,1,4,1,6,13,1
 we,Was erlebt,99,1,4,1,6,8,1
-wf,Wild & Free,99,1,4,3,3,29,2
+wf,Wild and Free,99,1,4,3,3,29,2
 whdg,Was hast du gedacht,99,1,4,1,6,7,1
 wsdb,Wie schoen du bist,99,1,4,3,3,45,1
 wsg,Wir sind groß,99,1,4,3,4,29,1
@@ -571,6 +570,6 @@ yg,Yvonne Gruenwald,Elaiza,2,1,6,7,999,3
 ylmwa,You let me walk alone,99,1,4,3,6,8,2
 yp,Yann Peifer,Casacada,2,2,6,7,999,3
 z,Zusammen,99,1,4,3,6,27,1
-zdra,Zieh' den Rucksack aus,99,1,4,1,5,15,1
+zdra,Zieh den Rucksack aus,99,1,4,1,5,15,1
 zoey,Zoey,99,1,4,1,6,12,1
 zzg,Zeit zu gehen,99,1,4,3,2,14,1
