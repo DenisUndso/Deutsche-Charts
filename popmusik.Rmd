@@ -1,6 +1,10 @@
 ---
 title: "R Notebook"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
+editor_options:
+  chunk_output_type: console
 ---
 
 This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
@@ -20,18 +24,51 @@ nodes <- read.csv("popmusik_nl.csv", header=T, as.is=T, sep=",")
 
 pop <- graph_from_data_frame(d=edges, vertices=nodes, directed=TRUE)
 
-visIgraph(pop, type = "full", layout="layout_with_kk", smooth=TRUE)
-
+visIgraph(pop, type = "full", layout="layout_nicely")
+pop
 plot(pop, vertex.size=1.5, layout=layout_nicely, edge.arrow.size=.3)
 
-plot(pop, vertex.size=1.5, layout=layout_nicely, edge.arrow.size=.1, vertex.label.dist=1, vertex.label.cex=.5, vertex.label.degree=pi/2)
-#popsub <- delete_vertices(pop, V(pop)[sex != "1" & sex != "4"]) #subplots, alle xy löschen
+#Subgraphen
+test <- subgraph.edges(pop, E(pop)[type != "1"])
 
+#Node-Attribute herausstellen und Isolates löschen
+popsub <- delete_vertices(pop, V(pop)[genre != "1" & genre != "6" ]) #subplots, alle xy löschen
+Isolated = which(degree(popsub)==0)
+G2 = delete.vertices(popsub, Isolated)
+
+outdegree <- delete_vertices(pop, V(pop)[degree(pop, mode="out") == 2]) #subplots, alle xy löschen
+Isolated = which(degree(outdegree)==0)
+G2 = delete.vertices(outdegree, Isolated)
+plot(G2)
+
+#Ego-Graph für Einzelpersonen
+ego1 <- make_ego_graph(pop, order=3, c("Atemlos durch die Nacht"))
+plot(ego1[[1]], edge.arrow.size=.1)
+
+#Plot-Befehl für "schönen" Graphen
+plot(ego1[[1]], vertex.size=20, layout=layout_nicely, edge.arrow.size=.1, vertex.label.dist=.5, vertex.label.cex=.5, vertex.label.degree=pi/2)
+
+durchmesser <- layout.fruchterman.reingold(pop, niter = 500)
+durchmesser <- norm_coords(durchmesser, ymin=-1, ymax=1, xmin=-1, xmax=1)
+
+plot(ego1[[1]], vertex.size=2, layout=durchmesser*1.35, edge.arrow.size=.1, vertex.label.dist=.5, vertex.label.cex=.5, vertex.label.degree=pi/2)
+
+plot(popsub)
+
+#plot(pop, layout=layout_with_gem)
+#pop
+
+E(pop)$color <- as.factor(edges$type)
+
+#Einfärben
 V(pop)[(V(pop)$type=="2")]$shape <- "square"
 V(pop)[(V(pop)$type=="1")]$shape <- "circle"
 
 V(pop)[(V(pop)$type=="2")]$color <- "blue"
-V(pop)[(V(pop)$type=="1")]$shape <- "circle"
+V(pop)[(V(pop)$type=="1")]$color <- "red"
+
+#V(pop)[(V(pop)$sex=="1")]$color <- "pink"
+#V(pop)[(V(pop)$sex=="2")]$color <- "blue"
 ```
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
