@@ -1,0 +1,112 @@
+---
+title: "R Notebook"
+output:
+  html_document:
+    df_print: paged
+editor_options:
+  chunk_output_type: console
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r}
+install.packages("visNetwork", dependencies=TRUE)
+library(visNetwork)
+setwd("~/Desktop")
+getwd()
+
+#Einlesen
+edges <- read.csv("popmusik_el.csv", header=T, as.is=T, sep=",")
+nodes <- read.csv("popmusik_nl.csv", header=T, as.is=T, sep=",")
+pop <- graph_from_data_frame(d=edges, vertices=nodes, directed=TRUE)
+
+#Subgraphen
+test <- subgraph.edges(pop, E(pop)[type == "1" & type == "2" & type != "3"])
+test1 <- delete.vertices(pop, which(degree(pop) != 3))
+
+#Alle Nodes, die Menschen sind und genau 3 Verbindungen haben
+
+#Node-Attribute herausstellen
+popsub <- delete_vertices(pop, V(pop)[genre != "1" & genre != "6"])
+
+#Isolates löschen
+Isolated = which(degree(popsub)==0)
+popsub = delete.vertices(popsub, Isolated)
+
+#Outdegree?!
+outdegree <- delete_vertices(pop, V(pop)[degree(pop, mode="out") == 2]) #subplots, alle xy löschen
+
+#Helenes Deutschpop-Krake
+ego1 <- make_ego_graph(pop, order=1, c("Helene Fischer"))
+ego2 <- make_ego_graph(pop, order=2, c("Helene Fischer"))
+ego3 <- make_ego_graph(pop, order=3, c("Helene Fischer"))
+ego4 <- make_ego_graph(pop, order=4, c("Helene Fischer"))
+ego5 <- make_ego_graph(pop, order=5, c("Helene Fischer"))
+ego6 <- make_ego_graph(pop, order=6, c("Helene Fischer"))
+ego7 <- make_ego_graph(pop, order=7, c("Helene Fischer"))
+ego8 <- make_ego_graph(pop, order=8, c("Helene Fischer"))
+plot(ego1[[1]], edge.arrow.size=.1)
+plot(ego2[[1]], layout=layout_nicely, edge.arrow.size=.1, vertex.label.dist=2)
+plot(ego3[[1]], vertex.size=2.5, layout=layout_nicely, edge.arrow.size=.1, vertex.label.dist=2, vertex.label=NA)
+plot(ego4[[1]], vertex.size=2.5, layout=layout_nicely, edge.arrow.size=.1, vertex.label.dist=2, vertex.label=NA)
+plot(ego5[[1]], vertex.size=2.5, layout=layout_nicely, edge.arrow.size=.1, vertex.label.dist=2, vertex.label=NA)
+plot(ego6[[1]], vertex.size=2.5, layout=layout_nicely, edge.arrow.size=.1, vertex.label.dist=2, vertex.label=NA)
+plot(ego7[[1]], vertex.size=2.5, layout=layout_nicely, edge.arrow.size=.1, vertex.label.dist=2, vertex.label=NA)
+plot(ego8[[1]], vertex.size=2.5, layout=layout_nicely, edge.arrow.size=.1, vertex.label.dist=2, vertex.label=NA)
+#Kann nach gleichem Muster noch weitergeführt werden :)
+
+#visiGraph
+visIgraph(pop, type = "full", layout="layout_nicely")
+
+#Plot-Befehl für "schönen" Graphen / Gesamtnetzwerk
+l <-layout_with_fr(pop)
+l <-norm_coords(l, ymin =-1,ymax = 1, xmin = -1, xmax = 1)
+par(mfrow=c(1,1), mar =c(1,1,1,1))
+plot(pop, rescale=F, vertex.size=3, layout=l*1.135, edge.arrow.size=.1, vertex.label.dist=2, vertex.label=NA)
+
+#plot(pop, vertex.size=2, layout=durchmesser*1.35, edge.arrow.size=.1, vertex.label.dist=.5, vertex.label.cex=.5, vertex.label.degree=pi/2)
+
+#Wochen in den Charts
+weeks <- delete_vertices(pop, V(pop)[genre == "6"])
+#Isolated = which(degree(weeks)==0)
+#weeks = delete.vertices(weeks, Isolated)
+V(weeks)[(V(weeks)$dauer < "10")]$color <- "gray90"
+V(weeks)[(V(weeks)$dauer >= "10" & dauer < "20")]$color <- "gray80"
+V(weeks)[(V(weeks)$dauer >= "20" & dauer < "30")]$color <- "gray70"
+V(weeks)[(V(weeks)$dauer >= "30" & dauer < "40")]$color <- "gray60"
+V(weeks)[(V(weeks)$dauer >= "40" & dauer < "50")]$color <- "gray50"
+V(weeks)[(V(weeks)$dauer >= "50" & dauer < "60")]$color <- "gray40"
+V(weeks)[(V(weeks)$dauer >= "60" & dauer < "70")]$color <- "gray30"
+V(weeks)[(V(weeks)$dauer >= "70" & dauer < "80")]$color <- "gray20"
+V(weeks)[(V(weeks)$dauer >= "80" & dauer < "90")]$color <- "gray10"
+V(weeks)[(V(weeks)$dauer >= "90")]$color <- "black"
+plot(weeks, vertex.size=13, layout=layout_on_grid, edge.arrow.size=.1, vertex.label.dist=2, vertex.label=NA)
+
+#Einfärben Edges
+E(pop)[(E(pop)$type=="1")]$color <- "khaki"
+E(pop)[(E(pop)$type=="2")]$color <- "magenta"
+E(pop)[(E(pop)$type=="3")]$color <- "brown"
+
+#Einfärben Sprache
+V(pop)[(V(pop)$sprache=="1")]$color <- "green"
+V(pop)[(V(pop)$sprache=="2")]$color <- "orange"
+
+#Einfärben Geschlecht
+V(pop)[(V(pop)$sex=="1")]$color <- "red"
+V(pop)[(V(pop)$sex=="2")]$color <- "blue"
+
+#Form Type
+V(pop)[(V(pop)$type=="2")]$shape <- "square"
+V(pop)[(V(pop)$type=="1")]$shape <- "circle"
+
+
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
