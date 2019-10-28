@@ -238,8 +238,8 @@ jd,Juergen Dohr,Junkx,2,2,6,7,999,3
 je,Jason Evigan,Jason Evigan,2,2,6,7,999,3
 jeb,Jeffrey Boadi,Jeffrey Boadi,2,2,6,7,999,3
 jed,Jeremias Daniel,Jeremias Daniel,2,2,6,7,999,3
-jg,Jochen Gargitter,Frei.Wild,2,2,6,3,999,3
-jh,Julius Hartog ,Julius Hartog,2,2,6,3,999,3
+jg,Jochen Gargitter,Frei.Wild,2,2,6,7,999,3
+jh,Julius Hartog ,Julius Hartog,2,2,6,7,999,3
 jh2,Jan Hammele,Jan Hammele,2,2,6,7,999,3
 jhb,James Hillier Blunt,James Blunt,2,2,6,7,999,3
 jhn,James Harry Nosanow,James Harry Nosanow,2,2,6,7,999,3
@@ -255,7 +255,7 @@ jlm,John Lorenz Moser,Bonez MC,2,2,6,7,999,3
 jm,Ja Mann,99,1,4,1,6,5,1
 jm2,Julian Maas,Julian Maas,2,2,6,7,999,3
 jms,Joseph Michael Spargur,Joseph Michael Spargur,2,2,6,7,999,3
-jn,Jonas Notdurfter,Frei.Wild,2,2,6,3,999,3
+jn,Jonas Notdurfter,Frei.Wild,2,2,6,7,999,3
 jn2,Jost Nickel,Jost Nickel,2,2,6,7,999,3
 jnl,Jonas Nikolaus Lang,Jonas Nikolaus Lang,2,2,6,7,999,3
 jnppf,Je ne parle pas français,99,1,4,3,6,36,1
@@ -269,7 +269,7 @@ jr3,Jens Rachut,Jens Rachut,2,2,6,7,999,3
 js,Johannes Strate,Revolverheld,2,2,6,7,999,3
 js2,Jakob Sinn,Revolverheld,2,2,6,7,999,3
 js3,Jens Schneider,Jens Schneider,2,2,6,7,999,3
-jt,Jasmine Ying Thompson ,Jasmine Thompson,2,1,6,3,999,3
+jt,Jasmine Ying Thompson ,Jasmine Thompson,2,1,6,7,999,3
 juju,Judith Wessendorf,Juju,2,1,6,7,999,3
 jus,Julien Schwarzer,Julien Schwarzer,2,2,6,7,999,3
 jv,Josef Valenzuela,Josef Valenzuela,2,2,6,7,999,3
@@ -332,14 +332,14 @@ md,Maximilian Diehn,Kontra K,2,2,6,7,999,3
 meer,Meer,99,1,4,1,6,18,1
 mel,Melodien,99,1,4,1,6,33,1
 mem,Mohamed El Moussaoui,MoTrip,2,2,6,7,999,3
-meph,Mephisto,99,1,4,1,6,3,3
+meph,Mephisto,99,1,4,1,6,3,1
 mes,Melvin Schmitz,Melvin Schmitz,2,2,6,7,999,3
 met,Melanie Thornton,Melanie Thornton,2,1,6,7,999,3
 mf,Martin Fliegenschmidt,Fly,2,2,6,7,999,3
 mg,Mike Gommering,Mike Gommering,2,2,6,7,999,3
 mg2,Markus Ganter,Markus Ganter,2,2,6,7,999,3
 mg3,Max Giesinger,Max Giesinger ,2,2,6,7,999,3
-mh,Martin Haas ,Martin Haas,2,2,6,3,999,3
+mh,Martin Haas ,Martin Haas,2,2,6,7,999,3
 mh2,Max Herre,Max Herre,2,2,6,7,999,3
 mh3,Martin Hofele,Martin Hofele,2,2,6,7,999,3
 mh4,Mohamad Hoteit,The Royals,2,2,6,7,999,3
@@ -354,7 +354,7 @@ mmh,Martin Maria Haller,Martin Haller,2,2,6,7,999,3
 mon,Moneygram,99,1,4,1,6,12,1
 mor,Morgen,99,1,4,3,2,6,1
 mp,Marek Pompetzki,Marek Pompetzki,2,2,6,7,999,3
-mpp,Moses Peter Pelham,Moses Pelham,2,2,6,3,999,3
+mpp,Moses Peter Pelham,Moses Pelham,2,2,6,7,999,3
 mpshr,Messiah Prince Sheridan Damien Ritzinger,Prince Damien,2,2,6,7,999,3
 mpw,Martin Peter Willumeit,Martin Peter Willumeit,2,2,6,7,999,3
 mr,Michael Roetgens,Michael Roetgens,2,2,6,7,999,3
@@ -492,8 +492,8 @@ sp,St Pauli,99,1,4,5,2,999,1
 sp1,Sebastian Padotzke,Sebastian Padotzke,2,2,6,7,999,3
 sr,Sam Roman,Romans,2,2,6,7,999,3
 srn,Sascha Ramy Nour,Hanybal,2,2,6,7,999,3
-srw,Sune Rose Wagner ,Sune Rose Wagner,2,2,6,3,999,3
-ss,Sabrina Setlur,Sabrina Setlur,2,1,6,3,999,3
+srw,Sune Rose Wagner ,Sune Rose Wagner,2,2,6,7,999,3
+ss,Sabrina Setlur,Sabrina Setlur,2,1,6,7,999,3
 ss1,Sipho Silio,Beatgees,2,2,6,7,999,3
 ss2,Sebastian Seidel ,Stereoact,2,2,6,7,999,3
 ss3,Sam Sommer,Sam Sommer,2,2,6,7,999,3
@@ -526,7 +526,7 @@ tr,Torsten Reibold,Seeed,2,2,6,7,999,3
 tr2,Tobias Rieser,Klangkarussel,2,2,6,7,999,3
 tr3,Tobias Riether,Tobee,2,2,6,7,999,3
 tr4,Traum,99,1,4,3,2,47,1
-trh,Thomas Richard Havelock,Tom Cane,2,2,6,3,999,3
+trh,Thomas Richard Havelock,Tom Cane,2,2,6,7,999,3
 ts,Thomas Stengaard,Thomas Stengaard,2,2,6,7,999,3
 tsc,Toni Schoenebeck,Toni Schoenebeck,2,2,6,7,999,3
 tt,Tamam Tamam,99,1,4,1,6,26,1
