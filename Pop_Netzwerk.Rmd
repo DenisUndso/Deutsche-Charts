@@ -1,0 +1,185 @@
+---
+title: "R Notebook"
+output:
+  html_document:
+    df_print: paged
+editor_options:
+  chunk_output_type: console
+---
+
+
+```{r}
+install.packages("visNetwork", dependencies=TRUE)
+
+library(visNetwork)
+setwd("~/Desktop")
+getwd()
+
+#gesamtes Netzwerk einlesen
+edges <- read.csv("https://raw.githubusercontent.com/DenisUndso/Deutsche-Charts/master/popmusik_el.csv", header=T, as.is=T, sep=",")
+nodes <- read.csv("https://raw.githubusercontent.com/DenisUndso/Deutsche-Charts/master/popmusik_nl.csv", header=T, as.is=T, sep=",")
+pop <- graph_from_data_frame(d=edges, vertices=nodes, directed=TRUE)
+visIgraph(pop, type = "full", layout="layout_nicely")
+plot(pop)
+
+#Plot-Befehl für "schönen" Graphen / Gesamtnetzwerk
+l <-layout_with_fr(pop)
+l <-norm_coords(l, ymin =-1,ymax = 1, xmin = -1, xmax = 1)
+par(mfrow=c(1,1), mar =c(1,1,1,1))
+plot(pop, rescale=F, vertex.size=3, layout=l*1.135, edge.arrow.size=.1, vertex.label.dist=2, vertex.label=NA)
+
+```
+
+```{r einfärben}
+#Einfärben Edges
+E(pop)[(E(pop)$type=="1")]$color <- "khaki"
+E(pop)[(E(pop)$type=="2")]$color <- "magenta"
+E(pop)[(E(pop)$type=="3")]$color <- "brown"
+
+#Einfärben Genre
+V(pop)[(V(pop)$genre=="1")]$color <- "green"
+V(pop)[(V(pop)$genre=="2")]$color <- "purple"
+V(pop)[(V(pop)$genre=="3")]$color <- "turquoise"
+V(pop)[(V(pop)$genre=="4")]$color <- "yellow"
+V(pop)[(V(pop)$genre=="5")]$color <- "grey"
+
+#Einfärben Sprache
+V(pop)[(V(pop)$sprache=="1")]$color <- "green"
+V(pop)[(V(pop)$sprache=="2")]$color <- "orange"
+
+#Einfärben Geschlecht
+V(pop)[(V(pop)$sex=="1")]$color <- "red"
+V(pop)[(V(pop)$sex=="2")]$color <- "blue"
+
+#Form Type
+V(pop)[(V(pop)$type=="2")]$shape <- "square"
+V(pop)[(V(pop)$type=="1")]$shape <- "circle"
+
+plot(pop)
+```
+
+```{r Wochen in den Charts}
+#Wochen in den Charts
+weeks <- delete_vertices(pop, V(pop)[genre == "6"])
+#Isolated = which(degree(weeks)==0)
+#weeks = delete.vertices(weeks, Isolated)
+V(weeks)[(V(weeks)$dauer < "10")]$color <- "gray90"
+V(weeks)[(V(weeks)$dauer >= "10" & dauer < "20")]$color <- "gray80"
+V(weeks)[(V(weeks)$dauer >= "20" & dauer < "30")]$color <- "gray70"
+V(weeks)[(V(weeks)$dauer >= "30" & dauer < "40")]$color <- "gray60"
+V(weeks)[(V(weeks)$dauer >= "40" & dauer < "50")]$color <- "gray50"
+V(weeks)[(V(weeks)$dauer >= "50" & dauer < "60")]$color <- "gray40"
+V(weeks)[(V(weeks)$dauer >= "60" & dauer < "70")]$color <- "gray30"
+V(weeks)[(V(weeks)$dauer >= "70" & dauer < "80")]$color <- "gray20"
+V(weeks)[(V(weeks)$dauer >= "80" & dauer < "90")]$color <- "gray10"
+V(weeks)[(V(weeks)$dauer >= "90")]$color <- "black"
+plot(weeks, vertex.size=13, layout=layout_on_grid, edge.arrow.size=.1, vertex.label.dist=2, vertex.label=NA)
+
+```
+
+```{r Jahre nach Genre}
+#Songs und Genre einfärben für Jahres-Visualisierung  
+V(pop)[(V(pop)$type=="1")]$shape <- "circle"
+V(pop)[(V(pop)$genre=="1")]$color <- "green"
+V(pop)[(V(pop)$genre=="2")]$color <- "purple"
+V(pop)[(V(pop)$genre=="3")]$color <- "turquoise"
+V(pop)[(V(pop)$genre=="4")]$color <- "yellow"
+V(pop)[(V(pop)$genre=="5")]$color <- "grey"
+
+#Einzelne Jahre visualisieren  
+popsub <- delete_vertices(pop, V(pop)[date != "1"])
+popsub <- delete_vertices(pop, V(pop)[date != "2"])
+popsub <- delete_vertices(pop, V(pop)[date != "3"])
+popsub <- delete_vertices(pop, V(pop)[date != "4"])
+popsub <- delete_vertices(pop, V(pop)[date != "5"])
+popsub <- delete_vertices(pop, V(pop)[date != "6"])
+
+plot(gc, popsub, edge.arrow.size=.2, layout=layout_nicely)
+visIgraph(popsub, type = "full", layout="layout_nicely", smooth=FALSE)
+```
+
+```{r Ego-Graphen}
+#Ego-Graph für Headlights
+headlights <- make_ego_graph(pop, order=1, c("Headlights"))
+plot (headlights[[1]], edge.arrow.size=.3,
+     layout=layout_with_kk,
+     main="Ego Netzwerk Headlights")
+     
+#Ego-Graph für Tim Wilke
+timwilke<- make_ego_graph(pop, order=1, c("Tim Wilke"))
+plot (timwilke[[1]], edge.arrow.size=.4,
+     layout=layout_nicely,
+     main="Ego Netzwerk Tim Wilke")
+
+#Ego-Graph für Vincent Stein
+vs <- make_ego_graph(pop, order=1, c("Vincent Stein"))
+plot(vs[[1]], layout=layout_nicely, edge.arrow.size=0.3, vertex.size=20, vertex.label.dist=0.5, rescale=1, main= "Ego Netzwerk Vincent Stein")
+```
+
+```{r Netzwerke sex}
+#Netzwerk Frauen & Songs 
+popsub <- delete_vertices(pop, V(pop)[sex != "1" & sex != "4" ]) #subplots, alle xy löschen
+Isolated = which(degree(popsub)==0)
+popsub = delete.vertices(popsub, Isolated)
+visIgraph(popsub, type = "full", layout="layout_nicely")
+plot (popsub)
+
+#Netzwerk Männer & Songs
+popsub <- delete_vertices(pop, V(pop)[sex != "2" & sex != "4" ]) #subplots, alle xy löschen
+Isolated = which(degree(popsub)==0)
+popsub = delete.vertices(popsub, Isolated)
+visIgraph(popsub, type = "full", layout="layout_nicely")
+plot (popsub)
+```
+
+```{r Der Weg der Helene}
+helene <- make_ego_graph(pop, order=0, c("Helene Fischer"))
+plot(helene[[1]], main="Helene Fischer", layout=layout_with_fr, edge.arrow.size=0.2)
+
+helene1 <- make_ego_graph(pop, order=1, c("Helene Fischer"))
+plot(helene1[[1]], main="Helene Fischer", layout=layout_with_fr, edge.arrow.size=0.2)
+
+helene2 <- make_ego_graph(pop, order=2, c("Helene Fischer"))
+plot(helene2[[1]], main="Helene Fischer", layout=layout_with_fr, edge.arrow.size=0.2)
+
+helene3 <- make_ego_graph(pop, order=3, c("Helene Fischer"))
+plot(helene3[[1]], main="Helene Fischer", layout=layout_with_fr, edge.arrow.size=0.2, vertex.label=NA)
+
+helene4 <- make_ego_graph(pop, order=4, c("Helene Fischer"))
+plot(helene4[[1]], main="Helene Fischer", layout=layout_with_fr, edge.arrow.size=0.2, vertex.label=NA)
+
+helene5 <- make_ego_graph(pop, order=5, c("Helene Fischer"))
+plot(helene5[[1]], main="Helene Fischer", layout=layout_with_fr, edge.arrow.size=0.2, vertex.label=NA)
+
+helene6 <- make_ego_graph(pop, order=6, c("Helene Fischer"))
+plot(helene6[[1]], main="Helene Fischer", layout=layout_with_fr, edge.arrow.size=0.2, vertex.label=NA)
+
+helene7 <- make_ego_graph(pop, order=7, c("Helene Fischer"))
+plot(helene7[[1]], main="Helene Fischer", layout=layout_nicely, edge.arrow.size=0.2, vertex.label=NA)
+
+helene8 <- make_ego_graph(pop, order=8, c("Helene Fischer"))
+plot(helene8[[1]], main="Helene Fischer", layout=layout_nicely, edge.arrow.size=0.2, vertex.label=NA)
+```
+
+```{r Berechnungen}
+#Berechnung betweenness-Werte
+
+betweenness(pop, v = V(pop)[name == "Vincent Stein"], directed = FALSE) 
+betweenness(pop, v = V(pop)[name == "Tim Wilke"], directed = FALSE) 
+betweenness(pop, v = V(pop)[name == "David Kraft"], directed = FALSE)
+
+#Berechnung Outdegrees
+
+degree(pop, V(pop)[name == "David Kraft"], mode = "out") 
+degree(pop, V(pop)[name == "Tim Wilke"], mode = "out") 
+degree(pop, V(pop)[name == "Vincent Stein"], mode = "out") 
+
+#Berechnung Indegrees
+
+degree(pop, V(pop)[name == "Headlights"], mode = "in") 
+
+#Längster Pfad
+
+farthest_vertices(pop, directed = FALSE) 
+get_diameter(pop, directed = FALSE)
+```
